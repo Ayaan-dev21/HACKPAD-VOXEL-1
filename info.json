@@ -1,0 +1,24 @@
+{
+    "keyboard_name": "Hackpad",
+    "url": "",
+    "maintainer": "ayaan",
+    "width": 5,
+    "height": 1,
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "matrix_pins": {
+        "cols": ["GP26", "GP27", "GP28", "GP29", "GP0"],
+        "rows": ["GP1"]
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"label": "K0", "x": 0, "y": 0},
+                {"label": "K1", "x": 1, "y": 0},
+                {"label": "K2", "x": 2, "y": 0},
+                {"label": "K3", "x": 3, "y": 0},
+                {"label": "K4", "x": 4, "y": 0}
+            ]
+        }
+    }
+}
